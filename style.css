@@ -1,0 +1,104 @@
+
+body {
+  background-color: #F2ECE7;
+  margin:0px;
+}
+
+/* Top Navigation Bar Styling */
+
+.topnavbar {
+  background-color: #BFB8B2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnavbar a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnavbar a:hover {
+  background-color: pink;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnavbar a.active {
+  background-color: #67655E;
+  color: white;
+}
+
+/* Welcome to my page text */
+
+.homepage-top-boxes-container {
+  margin: 30px;
+  padding: 60px 40px;
+  text-align: center;
+  background-image: url('homepage_container_background.jpg');
+}
+
+.welcome-text {
+  display: inline-block;
+  padding: 70px 15px;
+  vertical-align: middle;
+  width: 500px;
+  background-color: #F3F3F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Jessica-image-holder {
+  display: inline-block;
+  padding: 0px;
+  vertical-align: middle;
+  width: 400px;
+  margin-bottom: 100px;
+  height: 250px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-section-container {
+  margin: 0px;
+  padding-top: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: white;
+  height: 500px;
+}
+
+.about-title {
+  font-size: 25px;
+}
+
+.about-underline {
+  height: 5px;
+  width: 90px;
+  background-color:#BFB8B2;
+}
+
+.about-description {
+  font-size: 20px;
+}
+
+
+
+/* RESUME STYLING */
+
+.resume-title {
+  text-align: center;
+  font-size: 23px;
+}
+
+.resume-small-titles {
+  padding-left: 30px;
+  font-size: 20px;
+}
+
+.resume-section-info {
+  padding-left: 30px;
+}
